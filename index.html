@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="ru"><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Папугаузор</title>
+
+  </head>
+  <body>
+    <h1>Папугаузор</h1>
+    <p>Вставь прямую ссылку на картинку с папугой, выбери скорость вращения и шаг, после чего нажимай на кнопку «ПАПУШ». Сохранить узор как картинку можешь в любой момент, правая клавиша мыши. Специально для <a href="https://vk.com/orangekust">Маши</a>. С днём рождения!</p>
+    <p>Ссылка: <input type="text" id="papugUrl">
+    Скорость: <input type="text" size="5" id="speedP" value="1000">
+    Шаг:<input type="text" size="5" id="stepP" value="1000"><br>
+      Размер: <input type="text" size="5" id="sizeP" value="1">
+      <button onclick="papush();">ПАПУШ</button>
+      <button id="pause" onclick="startstop()">Пауза</button></p>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
